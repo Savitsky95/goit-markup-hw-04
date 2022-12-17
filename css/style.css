@@ -297,6 +297,26 @@ margin-right: 40px;
     line-height: 24px;
     text-align: center;
 }
+
+.tm-list {
+    display: flex;
+    gap: 24px;
+    margin-top: 12px;
+    justify-content: center;
+}
+
+.tm-item {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: var(--button-color);
+    border-radius: 50%;
+}
+
+.tm-svg {
+    margin: auto;
+}
+
 .button-boss {
     display: flex;
 }
@@ -328,7 +348,7 @@ padding-bottom: 120px;
 }
 .footer {
     background-color: var(--brand-color);
-    display: block;
+    display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 156px;
@@ -375,4 +395,33 @@ padding-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
     width: 1158px;
+}
+
+.footer-social-media {
+    margin-left: 120px;
+}
+
+.sm-text {
+    color: var(--background-color);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.sm-list {
+    display: flex;
+    gap: 16px;
+}
+.sm-svg {
+    margin: auto;
+}
+
+.sm-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+}
+.sm-item:hover,
+.sm-item:focus {
+    background-color: #31D0AA;
 }
