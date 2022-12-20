@@ -15,10 +15,11 @@
 
 <body class="body">
     <!--Шапка-->
-    <header сlass="header">
+    <header class="header">
         <div class="container-header">
             <nav>
-                <a href="./index.html" class="link-to-logo">WEB<span class="second-logo-top">STUDIO</span></a>
+                <a href="./index.html" class="link-to-logo container-header-logo">WEB<span
+                        class="second-logo-top">STUDIO</span></a>
                 <ul class="link-to-list">
                     <li class="container-header_item"><a href="./index.html" class="nav link-to">
                             Studio
@@ -34,8 +35,7 @@
             <ul class="container-header-boss">
                 <li class="container-header_contacts"><a href="mailto:info@devstudio.com" class="contacts">
                         info@devstudio.com </a></li>
-                <li class="container-header_contacts"><a href="tel:+110001111111" class="contacts"> +11 (000)
-                        111-11-11
+                <li class="container-header_contacts"><a href="tel:+110001111111" class="contacts"> +11 (000) 111-11-11
                     </a>
                 </li>
             </ul>
@@ -110,20 +110,24 @@
             <div class="third-container">
                 <h3 class="wawd">What Are We Doing</h3>
                 <ul class="we-do-images">
-                    <li class="we-do"><img src="./images/image1.jpg" alt="Графіки на iMac" width="360" height="300">
+                    <li class="we-do"><img src="./images/image1.jpg" alt="Графіки на iMac" width="360" height="300"
+                            class="wd-img">
                     </li>
-                    <li class="we-do"><img src="./images/image2.jpg" alt="Переписка на iphone" width="360" height="300">
+                    <li class="we-do"><img src="./images/image2.jpg" alt="Переписка на iphone" width="360" height="300"
+                            class="wd-img">
                     </li>
-                    <li class="we-do"><img src="./images/image3.jpg" alt="iphone біля macbook" width="360" height="300">
+                    <li class="we-do"><img src="./images/image3.jpg" alt="iphone біля macbook" width="360" height="300"
+                            class="wd-img">
                     </li>
                 </ul>
+            </div>
         </section>
         <section class="fourth-section">
             <div class="container-team">
                 <h2 class="our-team">Our Team</h2>
                 <ul class="list-team">
                     <li class="container-item">
-                        <img src="./images/image4.jpg" alt="Product Designer" width="264" height="260">
+                        <img src="./images/image4.jpg" alt="Product Designer" width="264" height="260" class="team-img">
                         <div class="container-names">
                             <h3 class="names">Mark Guerrero</h3>
                             <p class="speciality">Product Designer</p>
@@ -160,7 +164,8 @@
                         </div>
                     </li>
                     <li class="container-item">
-                        <img src="./images/image5.jpg" alt="Frontend Developer" width="264" height="260">
+                        <img src="./images/image5.jpg" alt="Frontend Developer" width="264" height="260"
+                            class="team-img">
                         <div class="container-names">
                             <h3 class="names">Tom Ford</h3>
                             <p class="speciality">Frontend Developer</p>
@@ -197,7 +202,7 @@
                         </div>
                     </li>
                     <li class="container-item">
-                        <img src="./images/image6.jpg" alt="Marketing" width="264" height="260">
+                        <img src="./images/image6.jpg" alt="Marketing" width="264" height="260" class="team-img">
                         <div class="container-names">
                             <h3 class="names">Camila Garcia</h3>
                             <p class="speciality">Marketing</p>
@@ -234,7 +239,7 @@
                         </div>
                     </li>
                     <li class="container-item">
-                        <img src="./images/image7.jpg" alt="UI Designer" width="264" height="260">
+                        <img src="./images/image7.jpg" alt="UI Designer" width="264" height="260" class="team-img">
                         <div class="container-names">
                             <h3 class="names">Daniel Wilson</h3>
                             <p class="speciality">UI Designer</p>
@@ -324,47 +329,48 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container-footer">
-            <a href="./index.html" class="link-to-logo">WEB<span class="secondlogo">STUDIO</span></a>
-            <p class="footer-text"> Increase the flow of customers and<br>sales for your business withd
-                digital<br>marketing
-                & growth
-                solutions.</p>
+        <div class="foot-ctnr">
+            <div class="container-footer">
+                <a href="./index.html" class="link-to-logo">WEB<span class="secondlogo">STUDIO</span></a>
+                <p class="footer-text"> Increase the flow of customers and<br>sales for your business withd
+                    digital<br>marketing
+                    & growth
+                    solutions.</p>
+            </div>
+            <div class="footer-social-media">
+                <h3 class="sm-text">Social media</h3>
+                <ul class="sm-list">
+                    <li class="sm-item">
+                        <a href="#" class="sm-item">
+                            <svg width="24" height="24" class="sm-svg">
+                                <use href="./icons.svg/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sm-item">
+                        <a href="#" class="sm-item">
+                            <svg width="24" height="24" class="sm-svg">
+                                <use href="./icons.svg/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sm-item">
+                        <a href="#" class="sm-item">
+                            <svg width="24" height="24" class="sm-svg">
+                                <use href="./icons.svg/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sm-item">
+                        <a href="#" class="sm-item">
+                            <svg width="24" height="24" class="sm-svg">
+                                <use href="./icons.svg/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="footer-social-media">
-            <h3 class="sm-text">Social media</h3>
-            <ul class="sm-list">
-                <li class="sm-item">
-                    <a href="#" class="sm-item">
-                        <svg width="24" height="24" class="sm-svg">
-                            <use href="./icons.svg/symbol-defs.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="sm-item">
-                    <a href="#" class="sm-item">
-                        <svg width="24" height="24" class="sm-svg">
-                            <use href="./icons.svg/symbol-defs.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="sm-item">
-                    <a href="#" class="sm-item">
-                        <svg width="24" height="24" class="sm-svg">
-                            <use href="./icons.svg/symbol-defs.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="sm-item">
-                    <a href="#" class="sm-item">
-                        <svg width="24" height="24" class="sm-svg">
-                            <use href="./icons.svg/symbol-defs.svg#icon-linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
     </footer>
 </body>
 
